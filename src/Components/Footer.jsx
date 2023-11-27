@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { motion } from 'framer-motion';
 
 
@@ -20,6 +20,9 @@ const Footer = () => {
             </a>
             <a href='https://github.com/DeveloperAstra'>
               <BsGithub className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={24} />
+            </a>
+            <a href='https://twitter.com/Dev_Kariuki'>
+              <BsTwitter className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={24} />
             </a>
           </motion.div>
         </div>

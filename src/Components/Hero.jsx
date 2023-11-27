@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../styles'
 import { profile } from '../assets'
-import { BsGithub, BsLinkedin } from 'react-icons/bs'
+import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { motion } from 'framer-motion';
 
 const Hero = () => {
@@ -23,6 +23,9 @@ const Hero = () => {
             </a>
             <a href='https://github.com/DeveloperAstra'>
               <BsGithub className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={26} />
+            </a>
+            <a href='https://twitter.com/Dev_Kariuki'>
+              <BsTwitter className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={26} />
             </a>
           </div>
         </div>
