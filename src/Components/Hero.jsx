@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import { profile } from '../assets'
+import { profile, htmlcss, reactnextjs, tailwindsaas, javatypescript } from '../assets'
 import { BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { motion } from 'framer-motion';
 
@@ -17,6 +17,7 @@ const Hero = () => {
           <p className='text-dimWhite font-inter text-[16px] md:px-0 px-10 py-5 md:leading-[30px] '>Hi, I'm <span className='text-accentColor'>Brian Kariuki</span>.
              A passionate Front-end React and UI/UX Developer based in Nairobi, Kenya. 📍
           </p>
+
           <div className='flex justify-center md:justify-start py-2 gap-5'>
             <a href='https://www.linkedin.com/in/brian-kariuki-760275180'>
               <BsLinkedin className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={26}/>
@@ -28,6 +29,16 @@ const Hero = () => {
               <BsTwitter className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={26} />
             </a>
           </div>
+
+          {/* <div className='flex mt-12 w-full gap-6 md:gap-3 items-center justify-center flex-col md:flex-row'>
+            <p className='font-inter flex gap-3 text-lg font-bold text-white'>Tech Stack <span className='hidden font-thin md:flex'>|</span> </p>
+            <div className='grid items-center justify-evenly grid-cols-2'>
+              <img src={htmlcss} className='w-[60%]' />
+              <img src={reactnextjs} className='w-[60%]' />
+              <img src={tailwindsaas} className='w-[60%]' />
+              <img src={javatypescript} className='w-[60%]' />
+            </div>
+          </div> */}
         </div>
       </div>
 
