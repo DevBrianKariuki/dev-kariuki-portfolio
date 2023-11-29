@@ -12,8 +12,8 @@ const Hero = () => {
           <img src={profile} className='w-[100%] md:w-[85%]' />
         </motion.div>
         
-        <div className='text-center justify-center md:text-left  flex flex-col'>
-          <h1 className='font-poppins font-bold text-white text-4xl md:text-[55px] md:leading-[70px]'>Front-end React Developer 👋</h1>
+        <div className='text-center w-full justify-center md:text-left  flex flex-col'>
+          < BubbleText />
           <p className='text-dimWhite font-inter text-[16px] md:px-0 px-10 py-5 md:leading-[30px] '>Hi, I'm <span className='text-accentColor'>Brian Kariuki</span>.
              A passionate Front-end React and UI/UX Developer based in Nairobi, Kenya. 📍
           </p>
@@ -29,22 +29,26 @@ const Hero = () => {
               <BsTwitter className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={26} />
             </a>
           </div>
-
-          {/* <div className='flex mt-12 w-full gap-6 md:gap-3 items-center justify-center flex-col md:flex-row'>
-            <p className='font-inter flex gap-3 text-lg font-bold text-white'>Tech Stack <span className='hidden font-thin md:flex'>|</span> </p>
-            <div className='grid items-center justify-evenly grid-cols-2'>
-              <img src={htmlcss} className='w-[60%]' />
-              <img src={reactnextjs} className='w-[60%]' />
-              <img src={tailwindsaas} className='w-[60%]' />
-              <img src={javatypescript} className='w-[60%]' />
-            </div>
-          </div> */}
+  
         </div>
       </div>
 
       
 
     </section>
+  )
+}
+
+
+const BubbleText = () => {
+  return(
+    <h1 className='font-poppins md:font-normal font-bold text-white md:text-gray text-4xl md:text-[55px] md:leading-[70px]'>
+        {"Front-end React Developer 👋".split("").map((child, idx) =>(
+          <span className='hoverText' key={idx}>
+            {child}
+          </span>
+        )) }
+      </h1>
   )
 }
 

@@ -27,3 +27,34 @@ body {
   animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+.hoverText {
+  transition: 
+  0.3s font-weight,
+  0.3s color;
+}
+
+.hoverText:hover {
+  font-weight: 800;
+  color: #fff;
+}
+
+/* Hover to the right */
+.hoverText:hover + .hoverText{
+  font-weight: 500;
+  color: #ebebeb;
+}
+
+.hoverText:hover + .hoverText + .hoverText{
+  font-weight: 300;
+}
+
+
+/* Hover to the left */
+.hoverText:has( + .hoverText:hover){
+  font-weight: 600;
+  color: #ebebeb;
+}
+
+.hoverText:has( + .hoverText:hover + .hoverText:hover){
+  font-weight: 300;
+}

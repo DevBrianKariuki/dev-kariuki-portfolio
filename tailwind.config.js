@@ -10,6 +10,7 @@ export default {
         primaryBackground: "#2D2E32",
         secondaryBackground: "#3C3C3D",
         white: "#fff",
+        gray: "#EDEDED",
         dimWhite: "#E6E6E6",
         accentColor: "#FC00EA"
       },
