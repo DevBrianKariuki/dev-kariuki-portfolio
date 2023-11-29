@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import { cyburst } from '../assets'
+import { cyburst, Travlog } from '../assets'
 import ProjectCard from './ProjectCard'
 
 const Projects = () => {
@@ -17,8 +17,10 @@ const Projects = () => {
 
         </div>
 
-        <div>
-          <ProjectCard photo={cyburst} github={'https://github.com/DeveloperAstra/cyburst'} livedemo={'https://cyburst-new.vercel.app/'} />
+        <div className='flex flex-col gap-6'>
+          <ProjectCard title={'Cyburst Internet Solutions'} date={'September 2023'} description={'This is an internet suppliers website for a company known as Cyburst Internet Solutions which was an upgrade to the existing one.'} photo={cyburst} github={'https://github.com/DeveloperAstra/cyburst'} livedemo={'https://cyburst-new.vercel.app/'} />
+        
+          <ProjectCard photo={Travlog} title={'Travlog'} direction={'reverse'} date={'October 2023'} description={'This a responsive landing page design for a tours and travel company website.'}  github={'https://github.com/DeveloperAstra/Travlog'} livedemo={'https://travlog-wine.vercel.app/'} />
         </div>
 
         <h1 className='my-6 text-white font-poppins font-bold text-2xl'>More projects coming soon... 🔜</h1>
