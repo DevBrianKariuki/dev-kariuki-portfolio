@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <section id='home' className={`w-full md:py-32 mt-12 bg-primaryBackground py-8 flex flex-col items-center md:flex-row ${styles.flexCenter} ${styles.paddingY}`}>
+    <section id='home' className={`w-full justify-center md:py-28 mt-12 bg-primaryBackground relative py-8 flex flex-col items-center ${styles.flexCenter} ${styles.paddingY}`}>
       <div className='md:w-[70%] flex flex-col items-center md:flex-row-reverse'>
         <motion.div animate={{ y: [0, 15, 15, 0] }}  transition={{ repeat:Infinity, duration: 5 }} className={`flex ${styles.flexCenter} z-0 md:my-0 my-10 mx-10`}>
           <img src={profile} className='w-[100%] md:w-[85%]' />
@@ -29,11 +29,22 @@ const Hero = () => {
               <BsTwitter className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={26} />
             </a>
           </div>
-  
         </div>
       </div>
 
-      
+      <div className='flex flex-col md:w-[70%] gap-6 md:justify-start items-center md:items-center md:flex-row my-12'>
+        <p className='font-inter flex- font-bold text-xl gap-4 sm:text-lg flex items-center text-white'>Tech Stack <span className='font-thin hidden sm:flex'>|</span> </p>
+        <div className='flex flex-col gap-6 md:flex-row'>
+          <div className='flex gap-6'>
+            <img src={htmlcss} className='md:w-[50%]' />
+            <img src={reactnextjs} className='md:w-[50%]' />
+          </div>
+          <div className='flex gap-6 flex-row'>
+            <img src={tailwindsaas} className='md:w-[50%]' />
+            <img src={javatypescript} className='md:w-[50%]'/>
+          </div>
+        </div>
+      </div>
 
     </section>
   )
