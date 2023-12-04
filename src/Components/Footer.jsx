@@ -18,7 +18,7 @@ const Footer = () => {
             <a href='https://www.linkedin.com/in/brian-kariuki-760275180'>
               <BsLinkedin className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={24}  />
             </a>
-            <a href='https://github.com/DeveloperAstra'>
+            <a href='https://github.com/DevBrianKariuki'>
               <BsGithub className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={24} />
             </a>
             <a href='https://twitter.com/Dev_Kariuki'>
