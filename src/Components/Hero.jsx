@@ -13,7 +13,9 @@ const Hero = () => {
         </motion.div>
         
         <div className='text-center w-full justify-center md:text-left  flex flex-col'>
-          < BubbleText />
+          <h1 className='font-poppins font-bold text-white text-4xl md:text-[55px] md:leading-[70px]'>
+            Front-end React Developer 👋
+          </h1>
           <p className='text-dimWhite font-inter text-[16px] md:px-0 px-10 py-5 md:leading-[30px] '>Hi, I'm <span className='text-accentColor'>Brian Kariuki</span>.
              A passionate Front-end React and UI/UX Developer based in Nairobi, Kenya. 📍
           </p>
