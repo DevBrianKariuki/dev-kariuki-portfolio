@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
 
           <motion.div animate={{ y: [0, 10, 10, 0] }}  transition={{ repeat:Infinity, duration: 5 }} className='flex gap-4 py-4'>
-            <a href='https://www.linkedin.com/in/brian-kariuki-760275180'>
+            <a href='https://linkedin.com/in/devbriankariuki'>
               <BsLinkedin className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={24}  />
             </a>
             <a href='https://github.com/DevBrianKariuki'>

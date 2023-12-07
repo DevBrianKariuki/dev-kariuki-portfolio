@@ -21,7 +21,7 @@ const Hero = () => {
           </p>
 
           <div className='flex justify-center md:justify-start py-2 gap-5'>
-            <a href='https://www.linkedin.com/in/brian-kariuki-760275180'>
+            <a href='https://linkedin.com/in/devbriankariuki'>
               <BsLinkedin className='text-white cursor-pointer hover:text-accentColor hover:scale-[1.1]' fontSize={26}/>
             </a>
             <a href='https://github.com/DevBrianKariuki'>
