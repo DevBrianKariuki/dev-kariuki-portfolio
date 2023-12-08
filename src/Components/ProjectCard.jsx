@@ -26,11 +26,11 @@ const ProjectCard = ({title, photo, date, description , github, livedemo, direct
           </div>
 
           <div className='flex justify-center my-5 gap-10'>
-              <a href={github} className='flex gap-3 items-center text-white hover:text-accentColor hover:scale-[1.1] cursor-pointer'>
+              <a href={github} target="_blank" rel="noopener noreferrer" className='flex gap-3 items-center text-white hover:text-accentColor hover:scale-[1.1] cursor-pointer'>
                 <span className='font-inter font-medium text-l'>Code</span>
                 <BsGithub className=' cursor-pointer' fontSize={20} />
               </a>
-              <a href={livedemo} className='flex gap-3 items-center text-white hover:text-accentColor hover:scale-[1.1] cursor-pointer'>
+              <a href={livedemo} target="_blank" rel="noopener noreferrer" className='flex gap-3 items-center text-white hover:text-accentColor hover:scale-[1.1] cursor-pointer'>
                 <span className='font-inter font-medium text-l'>Live Demo</span>
                 <FiExternalLink className=' cursor-pointer' fontSize={20} />
               </a>
