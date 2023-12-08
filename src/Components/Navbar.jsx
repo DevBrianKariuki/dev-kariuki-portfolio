@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <nav className='w-full fixed top-0 px-6 md:px-16 bg-secondaryBackground flex py-6 items-center z-[5] justify-between'>
-      <h1 className='font-poppins text-accentColor font-bold text-2xl'>brian.dev</h1>
+      <h1 className='font-poppins text-accentColor font-bold text-2xl'>dev.brian</h1>
 
       <ul className='list-none sm:flex gap-6 hidden justify-end items-center flex-1'>
 
