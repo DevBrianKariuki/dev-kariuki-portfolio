@@ -6,6 +6,7 @@ import cyburstfull from './cyburst-full.png'
 import Travlog from './Travlog.png'
 import htmlcss from './htmlcss.svg'
 import Hoster from './Hoster.png'
+import Sushi from './Sushi.png'
 import javatypescript from './javatypescript.svg'
 import reactnextjs from './reactnextjs.svg'
 import tailwindsaas from './tailwindsaas.svg'
@@ -19,6 +20,7 @@ export {
     reactnextjs,
     tailwindsaas,
     Travlog,
+    Sushi,
     about,
     cyburst,
     frontenddeveloper,

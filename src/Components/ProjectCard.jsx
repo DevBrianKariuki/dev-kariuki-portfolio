@@ -14,7 +14,7 @@ const ProjectCard = ({title, photo, date, description , github, livedemo, direct
         <div className='text-center justify-center md:w-[50%] md:text-left flex flex-col'>
           <span className='font-bold font-poppins text-center py-4 text-2xl text-white'>
             {title} <br />
-              <span className='text-sm italic font-normal text-gray-300' > ({date})</span>
+              <span className='text-sm italic font-normal text-neutral-400' > ({date})</span>
           </span>
 
           <p className='text-white md:px-8 px-6 font-inter text-lg text-center pb-6'>{description}

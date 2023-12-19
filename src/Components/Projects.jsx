@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../styles'
-import { cyburst, Travlog, Hoster } from '../assets'
+import { cyburst, Travlog, Hoster, Sushi } from '../assets'
 import ProjectCard from './ProjectCard'
 
 const Projects = () => {
@@ -20,8 +20,8 @@ const Projects = () => {
         <div className='flex flex-col gap-6'>
           <ProjectCard title={'Hoster'} date={'November 2023'} direction={'reverse'} description={'A sleek and dynamic landing page designed to showcase Hosters cutting-edge hosting services. From seamless website management to top-tier security features.'} photo={Hoster} github={'https://github.com/DevBrianKariuki/hoster'} livedemo={'https://hoster-tawny.vercel.app/'} />
           <ProjectCard title={'Cyburst Internet Solutions'} date={'September 2023'} description={'This is an internet suppliers website for a company known as Cyburst Internet Solutions which was an upgrade to the existing one.'} photo={cyburst} github={'https://github.com/DevBrianKariuki/cyburst'} livedemo={'https://cyburst-new.vercel.app/'} />
-        
-          <ProjectCard photo={Travlog} title={'Travlog'} direction={'reverse'} date={'October 2023'} description={'This a responsive landing page design for a tours and travel company website.'}  github={'https://github.com/DevBrianKariuki/Travlog'} livedemo={'https://travlog-wine.vercel.app/'} />
+          <ProjectCard title={'Sushi'} date={'December 2023'} direction={'reverse'} description={'Sushi: A captivating hotel landing page, merging elegance with seamless functionality.'} photo={Sushi} github={'https://github.com/DevBrianKariuki/sushi'} livedemo={'https://sushi-livid-five.vercel.app/'} />
+          <ProjectCard photo={Travlog} title={'Travlog'}  date={'October 2023'} description={'Travlog: Ignite wanderlust with a vibrant travel company landing page, showcasing destinations with immersive visuals and details.'}  github={'https://github.com/DevBrianKariuki/Travlog'} livedemo={'https://travlog-wine.vercel.app/'} />
         </div>
 
         <h1 className='my-6 text-white font-poppins font-bold text-2xl'>More projects coming soon... 🔜</h1>
