@@ -35,6 +35,19 @@ const Contact = () => {
                   Mail
                   </h4>
                   <p className="font-inter font-normal  text-dimWhite">
+                    <a href='tel:+254703814228'>
+                      (+254) 703814228
+                    </a>
+                  </p>
+                </div>
+              </div>
+              <div className="flex justify-center items-center flex-col md:flex-row">
+                <BiMailSend  className="text-white my-1" fontSize={32}/>
+                <div className="flex flex-col justify-center md:ml-4">
+                  <h4 className="font-inter font-bold text-l text-white">
+                  Mail
+                  </h4>
+                  <p className="font-inter font-normal  text-dimWhite">
                     <a href='mailto:devbriankariuki@gmail.com'>
                       devbriankariuki@gmail.com
                     </a>
