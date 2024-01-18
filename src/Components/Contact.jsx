@@ -17,7 +17,7 @@ const Contact = () => {
           </h1>
 
           <div className="flex flex-col w-full md:flex-row gap-10 md:gap-18 my-6">
-              <div className="flex w-full justify-center items-center flex-col md:flex-row">
+              {/* <div className="flex w-full justify-center items-center flex-col md:flex-row">
                 <FaMapLocationDot  className="text-white my-2" fontSize={32}/>
                 <div className="flex flex-col justify-center md:ml-3">
                   <h4 className="font-inter font-bold text-l text-white">
@@ -27,7 +27,7 @@ const Contact = () => {
                   Nairobi,Kenya
                   </p>
                 </div>
-              </div>
+              </div> */}
               <div className="flex w-full justify-center items-center flex-col md:flex-row">
                 <BiMailSend  className="text-white my-1" fontSize={32}/>
                 <div className="flex flex-col justify-center md:ml-4">
